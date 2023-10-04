@@ -1,0 +1,60 @@
+.bg-Img
+{
+    flex-shrink: inherit;
+    z-index: -1;
+}
+.bg-flex-container
+{
+    position: inherit;
+    flex-shrink: inherit;
+    z-index: -1;
+    width: 100%;
+}
+.bg-flex
+{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+}
+body
+{
+    margin-top: -1.5%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: rgb(86, 86, 141);
+}
+p
+{
+    padding-left: 1vh;
+    font-family: 'alkhemikal';
+    color: aliceblue;
+    font-size: 150%;
+    text-shadow: 2px 2px #000000;
+    word-break:normal;
+}
+h3
+{
+    font-family: 'alkhemikal';
+    color: rgb(204, 210, 224);
+    font-size: 200%;
+    text-shadow: 2px 2px #000000;
+    border-bottom: 1vh solid #000000;
+    margin-top: 5vh;
+
+}
+.QNA-container
+{
+    border:1vh solid #000000;
+    width: 50vh;
+    height: fit-content;
+    background-color: #484c6171;
+}
+@font-face {
+    font-family: 'alkhemikal';
+    src: url('http://localhost/feladatok/fonts/webfontkit-20231002-024043/alkhemikal-webfont.woff2') format('woff2'),
+     url('http://localhost/feladatok/fonts/webfontkit-20231002-024043/alkhemikal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
