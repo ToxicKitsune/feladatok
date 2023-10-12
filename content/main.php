@@ -1,48 +1,61 @@
-
-<div class = "bg-flex-container bg-flex">
-<img class = "bg-img" src="LAVArt/caveNightTme.png" alt="a pixelart picture with castle ruins inside a cave at night time" srcset="">
-<img class = "bg-img" src="LAVArt/caveDayTime.png" alt="a pixelart picture with castle ruins inside a cave at day time" srcset="">
-</div>
-<div class = "mainContent">
-<div class = "QNA-container QNA-container1">
-    <h3>
-        Who am I?
-    </h3>
-    <p>
-        Richard Jancsó, aka Lua_Aki_Van online.
-    </p>
-</div>
-<div class = "QNA-container QNA-container2">
-    <h3>
-        What am I doing?
-    </h3>
-    <p>
-        By day I work as a video game tester and by night I make pointless games that will never be released.
-    </p>
-</div>
-<div class = "QNA-container QNA-container3">
-    <h3>
-        What skill I have and where have I acquired them?
-    </h3>
-    <p>
-        Mostly self taught Unity developer skills, in my opinion beginner level C# coding skills and some art skills.
-    I can also mention my hyper duper video game tester skills, but in reality it's not that hyper duper and more of mediocre.
-    </p>
-</div>
-<div class = "QNA-container QNA-container4">
-    <h3>
-        What I plan in the future?
-    </h3>
-    <p>
-        Finishing one of my game and release it on steam! Learning Unreal maybe and improving my social skills.
-    </p>
-</div>
-<div class = "QNA-container QNA-container5">
-    <h3>
-        Do you have or had any pets?
-    </h3>
-    <p>
-        I had and currently have a dog and my parents have a cat. Both are cute as hack look at them.
-    </p>
+<div class="mainContent">
+<h1>Richárd Jancsó</h1>
+<img class = "me" src="IMG/me.jpg" alt="jancso richard">
+<div class = "content">
+<h2>Contact:</h2>
+<p>
+    Tel: +36 70 600 7085
+    <br>
+    Email: jancsorichard@toxickitsune.com
+</p>
+<h2>Studies:</h2>
+<p>
+    <ul>
+        <li>Eszterházy Károly Katolikus Egyetem - Programtervező informatikus Levelező (2023-FOLYAMATBAN)</li>
+        <li>Dorogi Zsigmondy Vilmos Magyar-Angol Két Tanítási Nyelvű
+Gimnázium - Informatikai szak (2015-2019)</li>
+    </ul>
+</p>
+<h2>Software knowlage:</h2>
+<p>
+    <ul>
+        <li>C#</li>
+        <li>MySQL</li>
+        <li>Git</li>
+        <li>Unity</li>
+        <li>Photoshop</li>
+        <li>Asprite</li>
+    </ul>
+</p>
+<h2>Languages:</h2>
+<p>
+    English
+    <br>
+    Hungarian
+</p>
+<h2>Hobby:</h2>
+<p>
+    I make small video games, but never publish it.
+    <br>
+    I also make pixels look good
+    <br>
+    <video width="50%" height="50%" controls preload="none">
+        <source src="/feladatok/Media/empe4.mp4" type="video/mp4">
+    </video>
+    <br>
+    and a little bit of beep boop.
+    <br>
+    <audio controls>
+        <source src="/feladatok/Media/empe3.mp3" type="audio/mpeg">
+    </audio>
+</p>
+<h2>Previuse jobs:</h2>
+<p>
+    I worked for Cloud Network Techonology KFT. as an MRB Technican.
+    <br>
+    I worked at Azona Kft. I hated working there, no need to go into it.
+    <br>
+    Currently working at Zenimax Online Studios as a member of the QA team. In a nutshell: I play games and report issues.
+</p>
 </div>
 </div>

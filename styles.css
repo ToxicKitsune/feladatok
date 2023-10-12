@@ -6,76 +6,67 @@
 {
     position: inherit;
     z-index: -1;
-    width: 100%;
+    background-color: #484c6171;
+    margin: .5em 1em 1em 1em;
 }
 .bg-flex
 {
-    position: absolute;
     display: flex;
     flex-flow: row;
 }
 body
 {
-    margin-top: -1.5%;
+    margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-    background-color: rgb(86, 86, 141);
 }
-p
+p, li
 {
     padding-left: 1vh;
     font-family: 'alkhemikal';
     color: aliceblue;
-    font-size: 150%;
+    font-size: 200%;
     text-shadow: 2px 2px #000000;
     word-break:normal;
 }
-h3
+h1
 {
     font-family: 'alkhemikal';
     color: rgb(204, 210, 224);
-    font-size: 200%;
+    font-size: 300%;
     text-shadow: 2px 2px #000000;
-    border-bottom: 1vh solid #000000;
+    margin-top: 0%;
+    text-align: center;
+    padding-top: 1em;
+}
+h2
+{
+    font-family: 'alkhemikal';
+    color: rgb(204, 210, 224);
+    font-size: 250%;
+    text-shadow: 2px 2px #000000;
     margin-top: 5vh;
+}
+.content{
+    padding: 1em 1em 2em 1em;
 
 }
-.QNA-container
-{
-    border:1vh solid #000000;
-    width: 50vh;
-    height: fit-content;
-    background-color: #484c6171;
+.me{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    border-radius: 1em;
+    border-style: solid;
+    border-width: .25em;
+    border-color: white;
 }
-.QNA-container1{
-    position: fixed;
-    left: 5vw;
-    top: 10vh;
+footer{
+    display: none;
 }
-.QNA-container2{
-    position: fixed;
-    left: 20vw;
-    top: 30vh;
-}
-.QNA-container3{
-    position: fixed;
-    left: 60vw;
-    top: 10vh;
-}
-.QNA-container4{
-    position: fixed;
-    left: 40vw;
-    top: 70vh;
-}
-.QNA-container5{
-    position: fixed;
-    left: 75vw;
-    top: 60vh;
-}
-.mainContent
-{
-    position: absolute;
+header{
+    display: none;
 }
 @font-face {
     font-family: 'alkhemikal';
@@ -83,4 +74,25 @@ h3
      url('http://localhost/feladatok/fonts/webfontkit-20231002-024043/alkhemikal-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+@media (max-width:730px) {
+    .mainContent
+    {
+        background-image: url("LAVArt/caveNightTme.png");
+        background-size: contain;
+        background-position-x: center;
+        background-color: #381e4c;
+    }
+}
+
+@media (min-width:730px) {
+    .mainContent
+    {
+        background-image: url("LAVArt/caveNightTme.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-color: #381e4c;
+    } 
+    
 }
