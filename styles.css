@@ -1,12 +1,10 @@
-.bg-Img
+.bg-img
 {
-    flex-shrink: inherit;
-    z-index: -1;
+    width: 50%;
 }
 .bg-flex-container
 {
     position: inherit;
-    flex-shrink: inherit;
     z-index: -1;
     width: 100%;
 }
@@ -14,7 +12,7 @@
 {
     position: absolute;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
 }
 body
 {
@@ -50,11 +48,39 @@ h3
     height: fit-content;
     background-color: #484c6171;
 }
+.QNA-container1{
+    position: fixed;
+    left: 5vw;
+    top: 10vh;
+}
+.QNA-container2{
+    position: fixed;
+    left: 20vw;
+    top: 30vh;
+}
+.QNA-container3{
+    position: fixed;
+    left: 60vw;
+    top: 10vh;
+}
+.QNA-container4{
+    position: fixed;
+    left: 40vw;
+    top: 70vh;
+}
+.QNA-container5{
+    position: fixed;
+    left: 75vw;
+    top: 60vh;
+}
+.mainContent
+{
+    position: absolute;
+}
 @font-face {
     font-family: 'alkhemikal';
     src: url('http://localhost/feladatok/fonts/webfontkit-20231002-024043/alkhemikal-webfont.woff2') format('woff2'),
      url('http://localhost/feladatok/fonts/webfontkit-20231002-024043/alkhemikal-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
