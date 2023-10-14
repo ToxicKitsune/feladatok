@@ -14,6 +14,9 @@
     display: flex;
     flex-flow: row;
 }
+.work{
+    padding: 1em 0em 1em 0em;
+}
 body
 {
     margin-top: 0px;
@@ -62,11 +65,43 @@ h2
     border-width: .25em;
     border-color: white;
 }
+.nav-bar{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    background-color: #381e4c;
+    position: fixed;
+    width: 100vw;
+    height: fit-content;
+}
+.nav-component{
+    text-decoration: none;
+    height: 1em;
+    width: 2em;
+    text-align: center;
+    background-color: #381e4c;
+}
+.nav-component:hover
+{
+    background-color: #263244;
+    transition: background-color 1s;
+}
+.name{
+    margin-top: 0%;
+}
+a{
+    text-decoration: none ;
+}
 footer{
     display: none;
 }
 header{
     display: none;
+}
+.senko{
+    height: 100vh;
 }
 @font-face {
     font-family: 'alkhemikal';
@@ -78,7 +113,7 @@ header{
 @media (max-width:730px) {
     .mainContent
     {
-        background-image: url("LAVArt/caveNightTme.png");
+        background-image: url("/feladatok/LAVArt/caveNightTme.png");
         background-size: contain;
         background-position-x: center;
         background-color: #381e4c;
@@ -88,7 +123,7 @@ header{
 @media (min-width:730px) {
     .mainContent
     {
-        background-image: url("LAVArt/caveNightTme.png");
+        background-image: url("/feladatok/LAVArt/caveNightTme.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position-x: center;

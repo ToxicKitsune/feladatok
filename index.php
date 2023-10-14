@@ -1,12 +1,13 @@
+<?php
+    $content=$_GET['content_id']; // _GET is web server array with get variables
+?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<?php include 'content/main.php';?>
+<?php include 'components/header.php';?>
+<?php
+    if ($content == 'about' || $content == null){
+        include 'content/main.php';
+}else if ($content == 'senko'){
+        include 'content/senko.php';        
+}
+?>
 <?php include 'components/footer.php';?>

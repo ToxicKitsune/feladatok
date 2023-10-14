@@ -51,11 +51,11 @@ Gimnázium - Informatikai szak (2015-2019)</li>
 </p>
 <h2>Previuse jobs:</h2>
 <p>
-    I worked for Cloud Network Techonology KFT. as an MRB Technican.
+    <span class="work">I worked for Cloud Network Techonology KFT. as an MRB Technican.</span>
     <br>
-    I worked at Azona Kft. I hated working there, no need to go into it.
+    <span class="work">I worked at Azona Kft. I hated working there, no need to go into it.</span>
     <br>
-    Currently working at Zenimax Online Studios as a member of the QA team. In a nutshell: I play games and report issues.
+    <span class="work"> working at Zenimax Online Studios as a member of the QA team. In a nutshell: I play games and report issues.</span>
 </p>
 </div>
 </div>
