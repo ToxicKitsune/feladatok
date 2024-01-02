@@ -1,5 +1,5 @@
 <?php
-    $content=$_GET['content_id']; // _GET is web server array with get variables
+    $content=$_GET['content_id']??null;
 ?>
 
 <?php include 'components/header.php';?>

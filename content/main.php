@@ -55,7 +55,7 @@ Gimnázium - Informatikai szak (2015-2019)</li>
     <br>
     <span class="work">I worked at Azona Kft. I hated working there, no need to go into it.</span>
     <br>
-    <span class="work"> working at Zenimax Online Studios as a member of the QA team. In a nutshell: I play games and report issues.</span>
+    <span class="work">Now I'm working at Zenimax Online Studios Hungary as a member of the QA team. In a nutshell: I play games and report issues.</span>
 </p>
 </div>
 </div>
