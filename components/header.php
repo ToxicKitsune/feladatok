@@ -9,7 +9,7 @@
 </head>
 <body>
     <ul class = "nav-bar">
-        <li class = "nav-component"><a href="/feladatok/index.php?content_id=about">CV</a></li>
+        <li class = "nav-component"><a href="/feladatok/index.php?content_id=about">About me</a></li>
         <li class = "nav-component"><a href="/feladatok/index.php?content_id=senko">Senko</a></li>
         <?php //<li class = "nav-component"><a href="">That</a></li>?>
     </ul>

@@ -6,7 +6,7 @@
 <p>
     Tel: +36 70 600 7085
     <br>
-    Email: jancsorichard@toxickitsune.com
+    Email: <a href="mailto:jancsorichard@toxickitsune.com">jancsorichard@toxickitsune.com</a> 
 </p>
 <h2>Studies:</h2>
 <p>
@@ -25,6 +25,7 @@ Gimnázium - Informatikai szak (2015-2019)</li>
         <li>Unity</li>
         <li>Photoshop</li>
         <li>Asprite</li>
+        <li>Blender</li>
     </ul>
 </p>
 <h2>Languages:</h2>
