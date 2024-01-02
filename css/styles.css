@@ -1,6 +1,6 @@
-.bg-img
+.bg
 {
-    width: 50%;
+    background: url('/LAVArt/caveNightTme.png');
 }
 .bg-flex-container
 {
@@ -89,7 +89,7 @@ h2
 }
 .nav-component:hover
 {
-    text-shadow: 1px 1px grey;
+    height: calc();
     transition: background-color 1s;
 }
 .name{
@@ -110,29 +110,17 @@ header{
 }
 @font-face {
     font-family: 'alkhemikal';
-    src: url('http://localhost/feladatok/fonts/webfontkit-20231002-024043/alkhemikal-webfont.woff2') format('woff2'),
-     url('http://localhost/feladatok/fonts/webfontkit-20231002-024043/alkhemikal-webfont.woff') format('woff');
+    src: url('/fonts/webfontkit-20231002-024043/alkhemikal-webfont.woff2') format('woff2'),
+     url('/fonts/webfontkit-20231002-024043/alkhemikal-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-@media (max-width:730px) {
-    .mainContent
-    {
-        background-image: url("/feladatok/LAVArt/caveNightTme.png");
-        background-size: contain;
-        background-position-x: center;
-        background-color: #381e4c;
-    }
+.mainContent
+{
+    background-color: #81738C;
 }
-
-@media (min-width:730px) {
-    .mainContent
-    {
-        background-image: url("/feladatok/LAVArt/caveNightTme.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-color: #381e4c;
-    } 
-    
+.demoVideo{
+    width: -moz-available;          /* For Mozzila */
+    width: -webkit-fill-available;  /* For Chrome */
+    width: stretch;                 /* Unprefixed */
 }
