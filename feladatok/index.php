@@ -4,20 +4,18 @@
 
 <?php include 'components/header.php';?>
 <?php
-
-include ("/content/ora.php");
     if ($content == 'about'){
-        include '/content/main.php';
+        include 'content/main.php';
     }
     if ($content == 'ora'){
-        include ("/content/ora.php");        
+        include 'content/ora.php';        
     }
     if ($content == 'senko'){
-        include '/content/senko.php';        
+        include 'content/senko.php';        
     }
     if($content == null)
     {
-        include '/content/main.php';
+        include 'content/main.php';
     }
 ?>
 <?php include 'components/footer.php';?>
