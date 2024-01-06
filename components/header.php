@@ -8,8 +8,12 @@
     <title>Document</title>
 </head>
 <body>
+<a id="top"></a>
     <ul class = "nav-bar">
-        <li class = "nav-component"><a href="index.php?content_id=about">About me</a></li>
-        <li class = "nav-component"><a href="index.php?content_id=senko">Senko</a></li>
+        <li class = "nav-component btn pxl-font "><a href="index.php?content_id=about">About me</a></li>
+        <li class = "nav-component btn pxl-font "><a href="index.php?content_id=senko">Senko</a></li>
         <?php //<li class = "nav-component"><a href="">That</a></li>?>
     </ul>
+    <a href="#top">
+    <img src="img/senkogun.png" alt="Senko-san from Senko-san the helpfull fox anime holding a weapon" class = "senko">
+    </a>

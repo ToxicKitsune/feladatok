@@ -7,30 +7,26 @@
             <div class = "content">
                 <h2>Contact:</h2>
                     <p>
-                        Tel: +36 70 600 7085
+                        Tel: +36 70 *** **85
                         <br>
                         Email: <a href="mailto:jancsorichard@toxickitsune.com">jancsorichard@toxickitsune.com</a> 
                     </p>
                 <h2>Studies:</h2>
-                    <p>
-                        <ul>
-                            <li>Eszterházy Károly Katolikus Egyetem - Programtervező informatikus Levelező (2023-FOLYAMATBAN)</li>
-                            <li>Dorogi Zsigmondy Vilmos Magyar-Angol Két Tanítási Nyelvű
-                    Gimnázium - Informatikai szak (2015-2019)</li>
-                        </ul>
-                    </p>
+                    <ul>
+                        <li>Eszterházy Károly Katolikus Egyetem - Programtervező informatikus (2023-FOLYAMATBAN)</li>
+                        <li>Dorogi Zsigmondy Vilmos Magyar-Angol Két Tanítási Nyelvű
+                Gimnázium - Informatikai szak (2015-2019)</li>
+                    </ul>
                 <h2>Software knowlage:</h2>
-                    <p>
-                        <ul>
-                            <li>C#</li>
-                            <li>MySQL</li>
-                            <li>Git</li>
-                            <li>Unity</li>
-                            <li>Photoshop</li>
-                            <li>Asprite</li>
-                            <li>Blender</li>
-                        </ul>
-                    </p>
+                    <ul>
+                        <li>C#</li>
+                        <li>MySQL</li>
+                        <li>Git</li>
+                        <li>Unity</li>
+                        <li>Photoshop</li>
+                        <li>Asprite</li>
+                        <li>Blender</li>
+                    </ul>
                 <h2>Languages:</h2>
                     <p>
                         English
@@ -49,7 +45,7 @@
                         <br>
                         and a little bit of beep boop.
                         <br>
-                        <audio controls>
+                        <audio class = "demoAudio" controls>
                             <source src="/Media/empe3.mp3" type="audio/mpeg">
                         </audio>
                     </p>
