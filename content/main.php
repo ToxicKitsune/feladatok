@@ -9,7 +9,13 @@
                     <p>
                         Tel: +36 70 *** **85
                         <br>
-                        Email: <a href="mailto:jancsorichard@toxickitsune.com">jancsorichard@toxickitsune.com</a> 
+                        Email: <a href="mailto:jancsorichard@toxickitsune.com?Subject=Webprogramoz%C3%A1s%20I.">jancsorichard@toxickitsune.com</a>
+                        <br>
+                        CV:
+                        <a href="extraStuff/2024 egyetem kérte.pdf" download="RichardJancsoCV">
+                            Download my CV
+                        </a>
+
                     </p>
                 <h2>Studies:</h2>
                     <ul>
