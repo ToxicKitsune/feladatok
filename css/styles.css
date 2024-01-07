@@ -103,12 +103,42 @@ h2
     height: 4rem;
     z-index: 1;
 }
+.nav-bar-mobile{
+    margin: 0px;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+  justify-content: center;
+  background-color: #381e4c;
+  position: fixed;
+  width: 100%;
+  height: fit-content;
+  z-index: 1;
+  flex-direction: column;
+  border-bottom: white;
+  border-style: solid;
+  top:4rem;
+}
+.mobile-menu{
+    margin: 0px;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+  justify-content: center;
+  background-color: #381e4c;
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  z-index: 1;
+  flex-direction: column;
+  border-bottom: white;
+  border-style: solid;
+}
 .nav-component{
     color:white !important;
     text-decoration: none;
     height: 100%;
     width: fit-content;
-
     text-align: center;
     font-size:xx-large;
     padding-right: 10px;
