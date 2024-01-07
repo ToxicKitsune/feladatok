@@ -1,0 +1,6 @@
+10.07. Bevezetés a kommunikációelméletbe
+10.14. Webprogramozás I. gy.
+10.14. Magasszintű programozási nyelvek I. gy.
+10.27. Magasszintű programozási nyelvek I. ea.
+10.27. Magasszintű programozási nyelvek I. gy.
+10.28. Számítógépes rendszerek
